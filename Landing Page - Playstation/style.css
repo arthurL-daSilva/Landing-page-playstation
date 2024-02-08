@@ -159,10 +159,10 @@ body {
 
 @keyframes popsub {
     from{
-        color: #FFFFFF;
+        color: #000000;
     }
     to{
-        color: #000000;
+        color: #FFFFFF;
     }
 }
 
@@ -425,7 +425,7 @@ a{
     position: relative;
     top: 4px;
     color: #FFFFFF;
-    width: 1700px;
+    width: 2300px;
 }
 
 .siel{
@@ -454,6 +454,15 @@ a{
 @media screen and (max-width: 600px){
     .menu, .item-menu, .item-menub{
         display: none;
+    }
+
+    @keyframes popsub {
+        from{
+            color: #FFFFFF;
+        }
+        to{
+            color: #000000;
+        }
     }
 
     .conteudo{
@@ -557,7 +566,7 @@ a{
 
     .conteudo-baixo-dir{
         align-items: left;
-        margin-right: 200px;
+        padding-right: 200px;
     }
 
     .jogo-ff16{
@@ -567,7 +576,7 @@ a{
 
     .jogo-ff16:hover{
         width: 300px;
-        left: 230px;
+        left: 210px;
     }
 
     .jogo-spiderman{
@@ -576,7 +585,7 @@ a{
 
     .jogo-spiderman:hover{
         width: 300px;
-        left: 10px;
+        left: 30px;
     }
 
     .jogo-fifa23{
@@ -591,10 +600,11 @@ a{
 
     .jogo-jedisurvivor{
         width: 300px;
+        left: 100px;
     }
 
     .jogo-jedisurvivor:hover{
-        left: 40px;
+        left: 80px;
     }
 
     .texto-jogos-esq{
@@ -627,5 +637,92 @@ a{
 
     .playstation-logo-baixo{
         height: 30px;
+    }
+}
+
+@media screen and (min-width: 1866px){
+    .conteudo-escrito{
+        display: flex;
+        align-items: center;
+    }
+
+    .conteudo-escrito-botao{
+        margin-left: -100px;
+    }
+
+    .linha-vertical{
+        top: 14px;
+        left: 100px;
+        height: 260px;
+        width: 200px;
+    }
+
+    .conteudo-baixo{
+        padding-top: 54px;
+    }
+
+    .conteudo-baixo-esq{
+        margin: 0px;
+        width: 1000px;
+        height: 400px;
+    }
+
+    .jogo-spiderman{
+        left: 60px;
+    }
+
+    .jogo-spiderman:hover{
+        width: 375px;
+        left: 30px;
+    }
+
+    .jogo-ff16{
+       bottom: 0px;
+       left: 0px;
+       width: 390px; 
+    }
+
+    .jogo-ff16:hover{
+        width: 390px;
+        left: 30px;
+    }
+
+    .texto-jogos-esq{
+        bottom: 0px;
+        top: 40px;    
+        left: 230px;
+    }
+
+    .conteudo-baixo-dir{
+        align-items: left;
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 400px;
+        width: 1000px;
+    }
+
+    .jogo-fifa23{
+        top: 0px;
+        left: 60px;
+    }
+
+    .jogo-fifa23:hover{
+        top: 0px;
+        left: 30px;
+    }
+
+    .jogo-jedisurvivor{
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .texto-jogos-dir{
+        bottom: 0px;
+        top: 40px;
+        margin-left: 250px;
+    }
+
+    .p-baixo{
+        padding-top: 15px;
     }
 }

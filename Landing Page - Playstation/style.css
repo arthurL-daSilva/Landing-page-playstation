@@ -641,9 +641,14 @@ a{
 }
 
 @media screen and (min-width: 1866px){
+    .conteudo{
+        padding-bottom: 32px;
+    }
+
     .conteudo-escrito{
         display: flex;
         align-items: center;
+
     }
 
     .conteudo-escrito-botao{
